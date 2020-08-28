@@ -1,0 +1,107 @@
+header {
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.35s;
+    z-index: 2;
+  }
+  .toggleNav {
+    font-size: 30px;
+  }
+  ul {
+    display: none;
+  }
+
+  .flex-nav a {
+      letter-spacing: 2px;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .flex-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .flex-nav .toggleNav {
+      padding:20px 20px 20px;
+      display: none;
+    }
+  
+    .highlighted {
+      background-color:#EEF36A;
+    }
+
+    .home a {
+      color: transparent;
+    }
+
+    .highlighted a {
+      color: #7d7d7d;
+    }
+
+    li {
+        text-transform: uppercase;   
+    }
+  
+    li a {
+      padding:10px 10px;
+    }
+  
+  
+  .flex-nav ul {
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .flex-nav li {
+    flex-grow: 1;
+  } 
+  
+  .flex-nav .home {
+    flex-grow: 1;;
+  } 
+  
+  .flex-nav .spacer {
+    flex-grow: 20;
+  } 
+  
+  
+  @media (max-width:768px) {
+ 
+  .flex-nav li {
+    flex-basis:100%;
+  }
+
+  .menuList{
+    display: none
+  }
+
+  .menuList.toggled {
+    display:initial;
+  }
+    
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-nav .toggleNav {
+    display: block;
+    display: initial;
+  }
+  
+  .flex-nav ul {
+    display: none;
+  }
+
+  .flex-nav ul.open {
+    display: flex;
+  }
+}

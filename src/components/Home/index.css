@@ -1,0 +1,13 @@
+#box-home {
+    background-image: url("/images/windows.jpg");
+    background-size: cover;
+}
+
+  .center {
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    border:5px solid #EEF36A;
+    margin: auto;
+    flex-direction: column;
+}

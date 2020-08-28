@@ -24,11 +24,11 @@ function About() {
                     experimentation, and collaboration. I’m looking for a role as a web developer at a company where I can
                     learn, grow, and continue to master the craft.
                     <br /><br />
-                    Working towards a certificate from the University of
-                    Pennsylvania and currently building skills in HTML5, CSS3, Javascript, Node
+                    Recently received a Full Stack Development certificate from the University of
+                    Pennsylvania with skills in HTML5, CSS3, Javascript, Node
                     Js, Express, and React.</p>
                     <div className="about-buttons">
-                        <a href="assets/RyanParker-resume-2020.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="assets/Parker-Ryan-resume-2020.pdf" target="_blank" rel="noopener noreferrer">
                             <span className="btn">resume</span>
                         </a>
                     </div>

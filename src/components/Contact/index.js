@@ -14,7 +14,7 @@ function Contact() {
           </div>
 
           <div className="inner" id="contact-right">
-            <h2><a href="mailto:ryansparker@gmail.com" className="email">ryansparker@gmail.com</a></h2>
+            <h2><a href="mailto:ryansparker@gmail.com" className="left">ryansparker@gmail.com</a></h2>
             <h2>267 978 4916</h2>
             <div className="contact-buttons">
               <a href="https://github.com/ryansparker" target="_blank" rel="noopener noreferrer">

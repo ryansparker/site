@@ -14,13 +14,11 @@ header {
   .flex-nav a {
       letter-spacing: 2px;
       display: inline-block;
-      width: 100%;
+      /* width: %; */
       text-align: center;
     }
     
-    .flex-nav a:hover {
-      text-decoration: underline;
-    }
+
 
     .flex-nav .toggleNav {
       padding:20px 20px 20px;
@@ -28,16 +26,18 @@ header {
     }
   
     .highlighted {
-      background-color:#EEF36A;
+      background-color:#afbdd6 ;
+      box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
     }
-
+    
     .home a {
       color: transparent;
     }
 
     .highlighted a {
-      color: #7d7d7d;
+      color: white;
     }
+
 
     li {
         text-transform: uppercase;   
@@ -105,3 +105,34 @@ header {
     display: flex;
   }
 }
+
+
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 19px;
+  bottom: 13px;
+  left: 0;
+  background-color: #EEF36A;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+a.left:hover {
+  color: #7d7d7d;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  
+}
+
+
+

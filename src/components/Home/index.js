@@ -5,7 +5,8 @@ function Home() {
   return (
     <div className="box" id="box-home">
       <div className="center">
-        <h1>HI, I'M RYAN AND I'M A WEB DEVELOPER</h1>
+        <h1>RYAN PARKER</h1>
+        <h2>WEB DEVELOPER</h2>
       </div>
     </div>
   )

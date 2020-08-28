@@ -28,7 +28,7 @@ function About() {
                     Pennsylvania and currently building skills in HTML5, CSS3, Javascript, Node
                     Js, Express, and React.</p>
                     <div className="about-buttons">
-                        <a href="assets/RyanParker-resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="assets/RyanParker-resume-2020.pdf" target="_blank" rel="noopener noreferrer">
                             <span className="btn">resume</span>
                         </a>
                     </div>

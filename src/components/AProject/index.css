@@ -1,0 +1,179 @@
+.project-item {
+    background-color: #afbdd6;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    z-index: 1;
+  }
+  
+  .project-item:last-child {
+    border-bottom: 0;
+  }
+  
+  .project-wrapper2 {
+    display: flex;
+  }
+  
+  #project-left {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+  }
+  
+  #project-left img {
+    border: 5px solid #7d7d7d;
+  }
+  
+  #project-right {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+  }
+  
+  .project-btns{
+    padding-top: 20px; 
+    display: flex;
+  }
+  
+  .project-top .project-btns {
+    position: absolute;
+    display: none;
+  }
+  
+  .project-btns .btn {
+    text-transform: uppercase;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 16px;   
+    padding: 10px; 
+    width: fit-content;
+    align-items: center;
+    margin-right:10px;
+  }
+    
+  .project-top:hover .project-btns{
+    display: block;
+  }
+  .project-top:hover img {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  .project-top img {
+    display: block;
+      width: 100%;
+      max-width: 500px; /*actual image width*/
+      height: auto; /* maintain aspect ratio*/
+      margin: auto;
+  }
+  
+  .image {
+      max-width: 550px;
+  }
+  
+  @media (max-width: 1200px) {
+    .project-btns {
+        flex-direction: column;
+    }
+    .button-github {
+      margin-top: 30px;
+    }
+    .project-info h3 {
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+    .project-info p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+  
+  
+  @media (max-width: 1050px) {
+    .project-wrapper2{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  #project-left img {
+   margin: auto;
+  }
+    #project-right {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+    .project-btns {
+      justify-self: center;
+      align-self: center;
+      flex-direction: row;
+      margin-top: 10px;
+    }
+    .button-github {
+      margin-top: 0px;
+    }
+    .project-info h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .project-info p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+  }
+  
+   
+  @media (max-width: 700px) {
+    .project-wrapper2{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  #project-left img {
+   margin: auto;
+   width: 400px;
+  }
+    #project-right {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+    .project-btns {
+      justify-self: center;
+      align-self: center;
+      flex-direction: row;
+      margin-top: 10px;
+    }
+    .button-github {
+      margin-top: 0px;
+    }
+    .project-info h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .project-info p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+  }
+  
+    
+  
+  

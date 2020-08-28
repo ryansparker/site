@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name":"Breaking Bread",
+        "image":"images/projects-01.jpg",
+        "title": "Breaking Bread",
+        "description":"A platform that connects restaurants and supermarkets to charitible food organizations.",
+        "link": "https://breaking-bread-donate.herokuapp.com/",
+        "github": "https://github.com/ksmera01/Breaking-Bread"
+
+    },
+    {
+        "id": 2,
+        "name":"Employee Directory",
+        "image":"images/projects-07.jpg",
+        "title": "Employee Directory",
+        "description":"A searchable employee search giving quick access to non-sensitive information.",
+        "link": "https://shrouded-savannah-32397.herokuapp.com",
+        "github": "https://ryansparker.github.io/employee-directory/"
+
+    },
+    {
+        "id": 3,
+        "name":"Eat Da Burger",
+        "image":"images/projects-03.jpg",
+        "title": "Eat Da Burger",
+        "description":"Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.",
+        "link": "https://enigmatic-eyrie-27789.herokuapp.com/",
+        "github": "https://github.com/ryansparker/eat-da-burger"
+
+    },
+    {
+        "id": 4,
+        "name":"Covid Tracker",
+        "image":"images/projects-04.jpg",
+        "title": "Covid Tracker",
+        "description":"Finds local medical and health charities to aid in the fight against Covid-19.",
+        "link": "https://dolinay1.github.io/Covid-19-Donation-App/",
+        "github": "https://github.com/dolinay1/Covid-19-Donation-App"
+
+    },
+    {
+        "id": 5,
+        "name":"Weather Dashboard",
+        "image":"images/projects-05.jpg",
+        "title": "Weather Dashboard",
+        "description":"Looks up a city by name and displays the current weather along with the upcoming five-day forecast.",
+        "link": "https://ryansparker.github.io/weather-dashboard/",
+        "github": "https://github.com/ryansparker/weather-dashboard"
+
+    },
+    {
+        "id": 6,
+        "name":"Work Day Scheduler ",
+        "image":"images/projects-06.jpg",
+        "title": "Work Day Scheduler",
+        "description":"Calendar application that can save events for each hour of the day.",
+        "link": "https://ryansparker.github.io/work-day-scheduler/",
+        "github": "https://github.com/ryansparker/work-day-scheduler"
+
+    }
+]
+

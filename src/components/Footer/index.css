@@ -1,0 +1,18 @@
+#footer-box { 
+    background: #afbdd6;
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+  }
+
+  .footer-items {
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    flex-direction: column; 
+}

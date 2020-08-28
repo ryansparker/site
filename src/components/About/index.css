@@ -1,0 +1,106 @@
+#about-box { 
+    background: #7d7d7d;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+  }
+  
+  .about-items {
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+  }
+  
+  #about-left {
+    height: 100%;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-h1 {
+    align-self: flex-start;
+    margin: 0;
+  }
+  
+  #about-right {
+    
+    height: 100%;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+  }
+    
+  .about-buttons {
+    margin-top: 20px;
+  }
+    
+  .btn a{
+    background: none;
+  }
+  
+  .bio {
+    width: 200px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+    z-index: 1;
+  }
+  
+  .element {
+    width: 420px;
+    object-fit: contain;
+    position: absolute;
+    top: 15vh;
+    left: -15vw;
+    bottom: 0;
+  }
+  
+  #art {
+    color:#EEF36A;
+    letter-spacing: 0px;
+  }
+  
+  #art:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 1050px) {
+  
+  
+    .about-items {
+      margin:auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .bio{
+      display: none;
+    }
+  
+    .about-h1{
+      text-align: center;
+      font-size: 1.6rem;
+      align-self: center;
+        }
+  
+    #about-right {
+      background-color: #7d7d7d;
+      width: auto;
+      margin:auto;
+      z-index: 1;
+      text-align: center;
+      align-self: center;
+    }
+  }
+  
+  @media (max-width: 850px) {
+  
+  }

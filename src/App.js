@@ -7,9 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="wrapper">
+     <h1> HEEEEEEE </h1>
     <Menu />
     <Home />
-
     </div>
   );
 }

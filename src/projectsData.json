@@ -3,7 +3,7 @@
     {
         "id": 1,
         "name":"Employee Directory",
-        "image":"images/projects-07.jpg",
+        "image":"images/projects-employee.jpg",
         "title": "Employee Directory",
         "description":"A searchable employee search giving quick access to non-sensitive information.",
         "technology": "React, Javascript, Random User API",
@@ -14,7 +14,7 @@
     {
         "id": 2,
         "name":"Javascript Game Collection",
-        "image":"images/projects-02.jpg",
+        "image":"images/projects-game-collection.jpg",
         "title": "Javascript Game Collection",
         "description":"A place to display some simple javascript games from my studies.",
         "technology": "Javascript, React, HTML, CSS",
@@ -25,7 +25,7 @@
     {
         "id": 3,
         "name":"Weather Dashboard",
-        "image":"images/projects-05.jpg",
+        "image":"images/projects-weather.jpg",
         "title": "Weather Dashboard",
         "description":"Looks up a city by name and displays the current weather along with the upcoming five-day forecast.",
         "technology": "Javascript, Local Storage, Open Weather API",
@@ -36,7 +36,7 @@
     {
         "id": 4,
         "name":"Work Day Scheduler ",
-        "image":"images/projects-06.jpg",
+        "image":"images/projects-workday.jpg",
         "title": "Work Day Scheduler",
         "description":"Calendar application that can save events for each hour of the day.",
         "technology": "JQuery, Bootstrap, Local Storage",

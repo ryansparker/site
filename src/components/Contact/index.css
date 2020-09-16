@@ -17,11 +17,17 @@
 
 .contact-title {    
     text-align: left;
+    
 }
 
 .contact-h1 {
     align-self: flex-start;
     margin: 0;
+   
+}
+
+#contact-left h1{
+    color:#C9C8C8;
 }
 
 #contact-items {
@@ -95,6 +101,7 @@
   #contact-items h1{
      margin: auto; 
      padding-bottom: 30px; 
+     
   }
   #contact-items h2{
      margin: auto;

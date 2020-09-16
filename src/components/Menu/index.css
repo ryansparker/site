@@ -11,10 +11,11 @@ header {
     display: none;
   }
 
+
   .flex-nav a {
       letter-spacing: 2px;
       display: inline-block;
-      /* width: %; */
+     
       text-align: center;
     }
     
@@ -32,6 +33,7 @@ header {
     
     .home a {
       color: transparent;
+      padding-left: 30px;
     }
 
     .highlighted a {

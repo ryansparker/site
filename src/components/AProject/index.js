@@ -17,14 +17,16 @@ function AProject(props) {
                     <div className="project-info">
                         <h3>{props.name}</h3>
                         <p>{props.description}</p>
+                        <p className="techInfo">{props.technology}</p>
                     </div>
+
                     <div className="project-btns">
-                        <div className="button-page">
+                        <div className="btnBlock button-page">
                             <a href={props.link} target="_blank" rel="noopener noreferrer">
                                 <span className="btn">view page</span>
                             </a>
                         </div>
-                        <div className="button-github">
+                        <div className="btnBlock button-github">
                             <a href={props.github} target="_blank" rel="noopener noreferrer">
                                 <span className="btn"><i className="fa fa-github"></i>&nbsp;github</span>
                             </a>

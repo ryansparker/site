@@ -11,6 +11,7 @@ function Projects() {
             key={project.id}
             name={project.name} 
             description={project.description} 
+            technology={project.technology}
             image={project.image} 
             link={project.link} 
             github={project.github} />

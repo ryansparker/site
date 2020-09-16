@@ -1,5 +1,6 @@
 #project-box {
-    background:#afbdd6;
+    /* background:#afbdd6; */
+    background-color: #C9C8C8;
     display: flex;
     height: 100%;
     flex-direction: column;  
@@ -9,7 +10,7 @@
 
 .project-h1 {
     text-align: left;
-    color: white;
+    color: #7D7D7D;
   
 }
 

@@ -1,48 +1,59 @@
 [
-  
     {
         "id": 1,
-        "name":"Employee Directory",
-        "image":"images/projects-employee.jpg",
+        "name": "Employee Directory",
+        "image": "images/projects-employee.jpg",
         "title": "Employee Directory",
-        "description":"A searchable employee search giving quick access to non-sensitive information.",
+        "description": "A searchable employee search giving quick access to non-sensitive information.",
         "technology": "React, Javascript, Random User API",
         "link": "https://ryansparker.github.io/employee-directory/",
         "github": "https://github.com/ryansparker/employee-directory"
-
     },
     {
         "id": 2,
-        "name":"Javascript Game Collection",
-        "image":"images/projects-game-collection.jpg",
+        "name": "Javascript Game Collection",
+        "image": "images/projects-game-collection.jpg",
         "title": "Javascript Game Collection",
-        "description":"A place to display some simple javascript games from my studies.",
+        "description": "A place to display some simple javascript games from my studies.",
         "technology": "Javascript, React, HTML, CSS",
         "link": "https://ryansparker.github.io/game-collection/",
         "github": "https://github.com/ryansparker/game-collection"
-
     },
     {
         "id": 3,
-        "name":"Weather Dashboard",
-        "image":"images/projects-weather.jpg",
+        "name": "Weather Dashboard",
+        "image": "images/projects-weather.jpg",
         "title": "Weather Dashboard",
-        "description":"Looks up a city by name and displays the current weather along with the upcoming five-day forecast.",
+        "description": "Looks up a city by name and displays the current weather along with the upcoming five-day forecast.",
         "technology": "Javascript, Local Storage, Open Weather API",
         "link": "https://ryansparker.github.io/weather-dashboard/",
         "github": "https://github.com/ryansparker/weather-dashboard"
-
     },
     {
-        "id": 4,
-        "name":"Work Day Scheduler ",
-        "image":"images/projects-workday.jpg",
-        "title": "Work Day Scheduler",
-        "description":"Calendar application that can save events for each hour of the day.",
-        "technology": "JQuery, Bootstrap, Local Storage",
-        "link": "https://ryansparker.github.io/work-day-scheduler/",
-        "github": "https://github.com/ryansparker/work-day-scheduler"
-
+        "id": 5,
+        "name": "Urality",
+        "image": "images/projects-urality.jpg",
+        "title": "Urality",
+        "description": "Marketing site for a location based application.",
+        "technology": "Gatsby, React, HTML, CSS, Javascript",
+        "link": "https://urality.com"
+    },
+    {
+        "id": 5,
+        "name": "Ford Forlano",
+        "image": "images/projects-fordforlano.jpg",
+        "title": "Ford Forlano",
+        "description": "E-commerce site for an artisan jewelry company.",
+        "technology": "WordPress, Woocommerce, Elementor",
+        "link": "https://fordforlano.com/"
+    },
+    {
+        "id": 6,
+        "name": "Wear to Wall",
+        "image": "images/projects-wtw.jpg",
+        "title": "Wear to Wall",
+        "description": "E-commerce site for a slow fashion/art brand.",
+        "technology": "WordPress, Woocommerce, Elementor",
+        "link": "https://weartowall.com"
     }
 ]
-

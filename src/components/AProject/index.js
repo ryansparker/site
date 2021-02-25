@@ -26,11 +26,14 @@ function AProject(props) {
                                 <span className="btn">view page</span>
                             </a>
                         </div>
-                        <div className="btnBlock button-github">
-                            <a href={props.github} target="_blank" rel="noopener noreferrer">
-                                <span className="btn"><i className="fa fa-github"></i>&nbsp;github</span>
-                            </a>
-                        </div>
+                        
+                        {props.github ?
+                            <div className="btnBlock button-github">
+                                <a href={props.github} target="_blank" rel="noopener noreferrer">
+                                    <span className="btn"><i className="fa fa-github"></i>&nbsp;github</span>
+                                </a>
+                            </div> : ''}
+
                     </div>
                 </div>
             </div>

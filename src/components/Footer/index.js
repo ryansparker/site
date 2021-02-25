@@ -6,7 +6,7 @@ function Footer() {
 
         <footer id="footer-box"> 
             <div className="footer-items">
-                © Ryan Parker 2020 
+                © Ryan Parker 2021 
             </div>
         </footer>
     )

@@ -2,6 +2,7 @@ import React from 'react'
 import './index.css'
 
 
+
 function AProject(props) {
     console.log(props);
     return (
@@ -26,7 +27,7 @@ function AProject(props) {
                                 <span className="btn">view page</span>
                             </a>
                         </div>
-                        
+
                         {props.github ?
                             <div className="btnBlock button-github">
                                 <a href={props.github} target="_blank" rel="noopener noreferrer">
